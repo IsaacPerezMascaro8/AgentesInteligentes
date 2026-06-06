@@ -1,0 +1,53 @@
+{
+    "host": "localhost",
+    "manager": "m_RodrigoIsaac",
+    "manager_password": "secret",
+    "service": "s_RodrigoIsaac",
+    "service_password": "secret",
+    "allied": [
+        {
+            "rank": "my_soldier.MyBDISoldier",
+            "name": "soldier_RodrigoIsaac_",
+            "password": "secret",
+            "amount": 6,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "my_medic.MyBDIMedic",
+            "name": "medic_RodrigoIsaac_",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdimedic.asl"
+        },
+        {
+            "rank": "my_fieldop.MyBDIFieldOp",
+            "name": "fieldop_RodrigoIsaac_",
+            "password": "secret",
+            "amount": 2,
+            "asl": "bdifieldop.asl"
+        }
+    ],
+    "axis": [
+        {
+            "rank": "my_soldier.MyBDISoldier",
+            "name": "enemy_soldier_",
+            "password": "secret",
+            "amount": 8,
+            "asl": "bdisoldier.asl"
+        },
+        {
+            "rank": "BDIMedic",
+            "name": "enemy_medic_",
+            "password": "secret",
+            "amount": 1,
+            "asl": "bdimedic.asl"
+        },
+        {
+            "rank": "BDIFieldOp",
+            "name": "enemy_fieldop_",
+            "password": "secret",
+            "amount": 1,
+            "asl": "bdifieldop.asl"
+        }
+    ]
+}

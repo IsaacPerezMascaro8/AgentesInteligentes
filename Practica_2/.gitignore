@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.db
+pygomas_stats.txt
+*.log
